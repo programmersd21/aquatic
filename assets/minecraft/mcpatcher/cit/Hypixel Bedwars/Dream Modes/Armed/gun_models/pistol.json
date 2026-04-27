@@ -1,0 +1,67 @@
+{
+	"textures": {
+		"pistol": "./pistol"
+	},
+    "display": {
+        "thirdperson": {
+            "rotation": [ 60, 0, 180 ],
+            "translation": [ 0, 0.4, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -54, 0 ],
+            "translation": [ -2, 6, 0 ],
+            "scale": [ 1.9, 1.9, 1.9 ]
+        },
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, -14, 0 ],
+            "scale": [ 3, 3, 3 ]
+        },
+		"fixed": {
+            "rotation": [ 45, 90, 0 ],
+            "translation": [ 2, 2, 0 ],
+            "scale": [ 3, 3, 3 ]
+        }
+    },
+	"elements": [
+		{
+			"from": [7.1, 2, 8],
+			"to": [8.9, 7, 10],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 6, 9]},
+			"faces": {
+				"north": {"uv": [3, 5, 8, 3], "rotation": 90, "texture": "#pistol"},
+				"east": {"uv": [3, 5, 8, 3], "rotation": 90, "texture": "#pistol"},
+				"south": {"uv": [3, 5, 8, 3], "rotation": 90, "texture": "#pistol"},
+				"west": {"uv": [8, 3, 3, 5], "rotation": 270, "texture": "#pistol"},
+				"up": {"uv": [9, 0, 11, 2], "texture": "#pistol"},
+				"down": {"uv": [9, 0, 11, 2], "texture": "#pistol"}
+			}
+		},
+		{
+			"from": [7, 6, 3],
+			"to": [9, 8, 11],
+			"faces": {
+				"north": {"uv": [9, 3, 11, 5], "texture": "#pistol"},
+				"east": {"uv": [8, 3, 0, 5], "texture": "#pistol"},
+				"south": {"uv": [9, 0, 11, 2], "texture": "#pistol"},
+				"west": {"uv": [0, 3, 8, 5], "texture": "#pistol"},
+				"up": {"uv": [0, 0, 8, 2], "rotation": 90, "texture": "#pistol"},
+				"down": {"uv": [0, 8, 8, 6], "rotation": 270, "texture": "#pistol"}
+			}
+		},
+		{
+			"from": [8, 4, 6],
+			"to": [8, 7, 9],
+			"faces": {
+				"east": {"uv": [16, 13, 13, 16], "texture": "#pistol"},
+				"west": {"uv": [13, 13, 16, 16], "texture": "#pistol"}
+			}
+		}
+	]
+}

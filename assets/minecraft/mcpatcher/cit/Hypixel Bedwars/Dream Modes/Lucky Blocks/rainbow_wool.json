@@ -1,0 +1,18 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "down": "./rainbow_wool_side2",
+        "up": "./rainbow_wool_side2",
+        "north": "./rainbow_wool_side1",
+        "east": "./rainbow_wool_red",
+        "south": "./rainbow_wool_side2",
+        "west": "./rainbow_wool_purple"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 10, -45, 170 ],
+            "translation": [ 0, 1.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    }
+}
